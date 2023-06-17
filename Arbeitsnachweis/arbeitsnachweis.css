@@ -1,0 +1,88 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #logo {
+    display: block;
+    width: 100px; /* Passe die Breite an deine Bedürfnisse an */
+  }
+  
+  #firmenname,
+  #strasse,
+  #stadt,
+  #kundenname,
+  #kundenstrasse,
+  #kundenstadt,
+  #monteur-label,
+  #kunde-label {
+    margin-bottom: 10px;
+    font-family: "Arial", sans-serif; /* Hier kannst du eine moderne Schriftart deiner Wahl angeben */
+  }
+  
+  .kundeKopfzeile{
+    margin-top: 7.05rem;
+  }
+  #objekt-section,
+  #mieter-section,
+  #auftrag-section,
+  #material-section,
+  #massnahme-section,
+  #monteur-section,
+  #kunde-section {
+    margin-top: 100px;
+  }
+  
+  #objekt-label,
+  #mieter-label,
+  #auftrag-label,
+  #material-label,
+  #massnahme-label,
+  #monteur-label,
+  #kunde-label {
+    font-weight: bold;
+  }
+  
+  #objekt-textfeld,
+  #mieter-textfeld,
+  #auftrag-textfeld,
+  #material-textfeld,
+  #monteur-textfeld,
+  #kunde-textfeld {
+    width: 200px;
+  }
+  
+  #massnahme-textfeld {
+    width: 400px;
+    height: 150px; /* Hier habe ich die Höhe auf 150px erhöht */
+  }
+  
+  #mieter-section,
+  #auftrag-section,
+  #material-section,
+  #massnahme-section,
+  #monteur-section,
+  #kunde-section {
+    margin-top: 0;
+  }
+  
+  #monteur-section {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #kunde-section {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #kunde-textfeld {
+    margin-left: 10px;
+  }
+  .kundeKopfzeile{
+    margin-top: 7.05rem;
+  }
+
+  .hr1{
+    margin-bottom: 5rem;
+  }
